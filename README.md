@@ -7,7 +7,7 @@ How-to intall:
 ```
 gem install homesick
 homesick clone https://github.com/alexrochas/i3-dotfiles
-homesick symlink dotfiles
+homesick symlink i3-dotfiles
 homesick rc dotfiles
 ```
 
