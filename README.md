@@ -2,13 +2,13 @@
 
 These are my dotfiles for [i3-wm](https://i3wm.org/).
 
-How-to intall:
+## How-to intall:
 
 ```
 gem install homesick
 homesick clone https://github.com/alexrochas/i3-dotfiles
 homesick symlink i3-dotfiles
-homesick rc dotfiles
+homesick rc i3-dotfiles
 ```
 
 [Here](https://gist.github.com/alexrochas/45590646bfd89c9762c94e72bd860990) are the other non-essential dotfiles like **xsession config** and **cronjobs**.  
