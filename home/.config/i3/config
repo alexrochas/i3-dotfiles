@@ -200,23 +200,23 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 3%
 bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle
 
 # class assign
-assign [class="Pidgin"] → 1: Workbench
-assign [class="Icedove"] → 5: Mail
-assign [class="Iceweasel"] → 2: Web
-assign [class="jetbrains-idea-ce"] → 3: IDE
-assign [class="jetbrains-idea"] → 3: IDE
-assign [class="Google-chrome"] → 4: Job
-assign [class="Evince"] → 6: Documents
-assign [class="Okular"] → 6: Documents
-assign [title="Skype"] → 10: Play
-assign [title="Remmina"] → 7: Helper
-assign [class="jetbrains-idea" title="Run"] → 7: Helper
-assign [class="jetbrains-idea" title="Debug"] → 7: Helper
-assign [class="jetbrains-idea" title="Project"] → 7: Helper
-assign [title="Favorites"] → 7: Helper
-assign [class="jetbrains-idea" title="Find"] → 7: Helper
-assign [class="Spotify"] → 10: Play
-assign [class="Firefox"] → 2: Web
+# assign [class="Pidgin"] → 1: Workbench
+# assign [class="Icedove"] → 5: Mail
+# assign [class="Iceweasel"] → 2: Web
+# assign [class="jetbrains-idea-ce"] → 3: IDE
+# assign [class="jetbrains-idea"] → 3: IDE
+# assign [class="Google-chrome"] → 4: Job
+# assign [class="Evince"] → 6: Documents
+# assign [class="Okular"] → 6: Documents
+# assign [title="Skype"] → 10: Play
+# assign [title="Remmina"] → 7: Helper
+# assign [class="jetbrains-idea" title="Run"] → 7: Helper
+# assign [class="jetbrains-idea" title="Debug"] → 7: Helper
+# assign [class="jetbrains-idea" title="Project"] → 7: Helper
+# assign [title="Favorites"] → 7: Helper
+# assign [class="jetbrains-idea" title="Find"] → 7: Helper
+# assign [class="Spotify"] → 10: Play
+# assign [class="Firefox"] → 2: Web
 
 # window behavior
 for_window [class="URxvt"] border 1pixel
@@ -261,7 +261,7 @@ workspace "7: Helper" output eDP1
 #workspace "6: Documents" output VGA-1
 
 # keys to move workspace through outputs
-bindsym $mod+Shift+P move workspace to output DP2
+bindsym $mod+Shift+P move workspace to output HDMI1
 bindsym $mod+p move workspace to output eDP1
 
 # i3 plugins
