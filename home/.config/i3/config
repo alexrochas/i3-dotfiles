@@ -229,6 +229,7 @@ for_window [class="Firefox"] border none
 
 # startup aplicattions
 exec --no-startup-id /home/alex/.display; /home/alex/.change_wallpaper.sh
+exec --no-startup-id redshift-gtk
 # exec --no-startup-id tomboy
 # exec --no-startup-id firefox
 # exec --no-startup-id intellij
