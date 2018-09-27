@@ -36,7 +36,8 @@ bindsym $mod+Return exec ~/.config/i3/shell
 bindsym $mod+Shift+Q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run -p alex$
+# bindsym $mod+d exec dmenu_run -p alex$
+bindsym $mod+d exec rofi -show run
 # bindsym $mod+d exec --no-startup-id j4-dmenu-desktop
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
@@ -272,3 +273,11 @@ bindsym $mod+p move workspace to output eDP1
 # i3 plugins
 # Workspace Rollback
 exec i3-workspace-rollback
+
+# Temporary just to have a wallpaper
+# exec feh --bg-scale ~/Downloads/wallpaper.jpeg
+exec dunst
+# exec /home/alex/.conky/conky-startup.sh
+
+# gif background
+exec mplayer -loop 0 -rootwin -fixed-vo -ao null -noconsolecontrols -fs -zoom ~/Pictures/adventureTimeWallpaper.gif
